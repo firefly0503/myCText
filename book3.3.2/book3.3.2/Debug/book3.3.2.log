@@ -1,3 +1,5 @@
 ﻿  源.c
-d:\users\haoning\documents\visual studio 2015\projects\book3.3.2\book3.3.2\源.c(22): warning C4013: “system”未定义；假设外部返回 int
+d:\users\haoning\documents\visual studio 2015\projects\book3.3.2\book3.3.2\源.c(24): warning C4013: “system”未定义；假设外部返回 int
+d:\users\haoning\documents\visual studio 2015\projects\book3.3.2\book3.3.2\源.c(8): warning C4477: “scanf_s”: 格式字符串“%f”需要类型“float *”的参数，但可变参数 1 拥有了类型“double *”
+  d:\users\haoning\documents\visual studio 2015\projects\book3.3.2\book3.3.2\源.c(8): note: 请考虑在格式字符串中使用“%lf”
   book3.3.2.vcxproj -> D:\Users\haoning\Documents\Visual Studio 2015\Projects\book3.3.2\Debug\book3.3.2.exe
