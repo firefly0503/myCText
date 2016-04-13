@@ -1,8 +1,8 @@
 #include<stdio.h>
 void main()
 {
-  //while (1)
-  //{
+  while (1)//输入字母会导致死循环
+  {
 	double m, cost;
 	int p = 0;
 	printf("你的行李质量是多少？\n");
@@ -29,7 +29,7 @@ void main()
 	    	cost = 0.45*(m - 100) + 50 * 0.25 + 50 * 0.35;
 	    	printf("运费是：%lf 元\n", cost); break;
 	    }
-	default:printf("输入错误!\n"); break;
+	//default:printf("输入错误!\n"); break;
 	}
-  //}
+  }
 }
