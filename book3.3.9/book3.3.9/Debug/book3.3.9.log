@@ -1,1 +1,4 @@
-﻿  book3.3.9.vcxproj -> d:\users\haoning\documents\visual studio 2015\Projects\book3.3.9\Debug\book3.3.9.exe
+﻿  源.c
+d:\users\haoning\documents\github\myctext\book3.3.9\book3.3.9\源.c(19): warning C4013: “system”未定义；假设外部返回 int
+d:\users\haoning\documents\github\myctext\book3.3.9\book3.3.9\源.c(4): warning C4101: “i”: 未引用的局部变量
+  book3.3.9.vcxproj -> D:\Users\haoning\Documents\GitHub\myCText\book3.3.9\Debug\book3.3.9.exe
