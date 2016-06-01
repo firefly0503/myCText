@@ -1,0 +1,6 @@
+﻿  源.c
+d:\users\haoning\documents\visual studio 2015\projects\book4.4.5\book4.4.5\源.c(11): warning C4013: “gets”未定义；假设外部返回 int
+d:\users\haoning\documents\visual studio 2015\projects\book4.4.5\book4.4.5\源.c(34): warning C4013: “system”未定义；假设外部返回 int
+d:\users\haoning\documents\visual studio 2015\projects\book4.4.5\book4.4.5\源.c(7): warning C4101: “m”: 未引用的局部变量
+d:\users\haoning\documents\visual studio 2015\projects\book4.4.5\book4.4.5\源.c(7): warning C4101: “i”: 未引用的局部变量
+  book4.4.5.vcxproj -> D:\Users\haoning\Documents\Visual Studio 2015\Projects\book4.4.5\Debug\book4.4.5.exe
