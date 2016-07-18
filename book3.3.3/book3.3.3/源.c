@@ -5,7 +5,7 @@ void main()
 	printf("请输入一个日期，格式 yyyy.mm.dd\n");
 	scanf_s("%d.%d.%d", &year, &month, &day);
 	if (year >= 0 && month >= 1 && month <= 12 && day >= 1 && day <= 31)//初步判断日期合法
-	    if (year % 4 == 0 && year % 100 != 0 || year % 100 == 0)//是闰年
+		if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))//是闰年
 	    {
 		    printf("闰年\n");
 			if (month == 1 && day <= 31 || month == 2 && day <= 29 || month == 3 && day <= 31 || month == 4 && day <= 30 || month == 5 && day <= 31 || month == 6 && day <= 30 || month == 7 && day <= 31 || month == 8 && day <= 31 || month == 9 && day <= 30 || month == 10 && day <= 31 || month == 11 && day <= 30 || month == 12 && day <= 31)
